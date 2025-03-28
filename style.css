@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(230, 230, 199);
+}
+
+.container{
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    max-width: 30em;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.5em;
+}
+
+.app-title{
+    padding-top: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    letter-spacing: 0.25em;
+}
+
+.input-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    margin: 2.5em 1.5em;
+}
+
+#name, 
+#predict{
+    font-size: 1.2em;
+}
+
+#name{
+    padding: 0.8em 0.5em;
+    border: 1px solid black;
+    border-radius: 0.25em;
+}
+
+#predict{
+    background-color: rgb(131, 138, 132);
+    color: black;
+    border: none;
+    border-radius: 0.25em;
+}
+
+#gender-icon{
+    display: block;
+    width: 5em;
+    height: 5em;
+    position: relative;
+}
+
+.female{
+    background-color: rgb(236, 98, 121);
+}
+
+.male{
+    background-color: rgb(83, 197, 235);
+}
+
+#information{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-items: center;
+    border-radius: 0.25em;
+}
+
+#output-name{
+    text-transform: capitalize;
+    font-weight: 550;
+}
+
+#gender{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#error{
+    color: rgb(146, 21, 21);
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+}
+
+
